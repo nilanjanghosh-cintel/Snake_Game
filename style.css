@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Potta+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #d29f9f;
+  color: rgb(253, 251, 251);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.container {
+  position: relative;
+  padding: 20px;
+}
+
+.score_container {
+  font-size: 16px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+#restart_game {
+    margin: 0 auto;
+    display: block;
+    padding: 12px 25px; /* Adjust padding for a more balanced button */
+    background: #f47979;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px; /* Make the font size a bit larger */
+    border: 2px solid #040f09; /* Add a border with matching color */
+    border-radius: 8px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  /* Hover effect */
+  #restart_game:hover {
+    background: #f38585; /* Change background color on hover */
+    color: #ff3a3a; /* Change text color on hover */
+    box-shadow: 0 0 10px rgba(200, 6, 6, 0.5); /* Add a glowing effect */
+    transform: scale(1.05); /* Slightly increase size on hover */
+  }
+  
+
+.title {
+  font-size: 16px;
+}
+
+.game {
+  height: 400px;
+  width: 650px;
+  background: #e0e0e0;
+  margin: 0 auto;
+}
+
+.tile {
+  float: left;
+  margin: 0;
+  content: "";
+  background: #e0e0e0;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 134, 255, 0.05);
+}
+
+.body {
+  background: #a1b31a;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+}
+
+.head {
+  background: rgb(52, 50, 50);
+}
+
+.fruit {
+  background: #c98c12;
+  border-radius: 5px;
+}
+
+.instructions {
+    font-size: 20px; 
+    color: #0a0808; /* Dark text color */
+    padding: 15px 25px; 
+    text-align: center; 
+    background-color: rgba(255, 255, 255, 0.8); /* Add a subtle background with transparency */
+    border-radius: 10px; 
+    margin: 0 auto 20px; 
+    width: 80%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    font-family: 'Poppins', sans-serif; 
+    line-height: 1.5; 
+  }
+  
+/*  Name */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #070505;
+}
+.footer p {
+    font-family: 'Arial', sans-serif;
+    font-style: italic;
+}
+/* Game Screen Styling */
